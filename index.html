@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- link archivo css -->
+    <link rel="stylesheet" href="style.css">
+    <!-- link font awesome -->
+    <script defer src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" integrity="sha384-rOA1PnstxnOBLzCLMcre8ybwbTmemjzdNlILg8O7z1lUkLXozs4DHonlDtnE7fpc" crossorigin="anonymous"></script>
+    <!-- Link Swiper's CSS -->
+    <link
+    rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"/>
+    <!-- Animation CSS AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+    <header class="header" id="header">
+        <div class="header-container">
+            <a href="#" class="logo">
+                <img src="images/logo.png" alt="logo">
+            </a>
+            <nav class="nav">
+                <ul class="nav-menu">
+                    <li><a href="#" class="nav-link active">home</a></li>
+                    <li><a href="#nosotros" class="nav-link">nosotros</a></li>
+                    <li><a href="#cursos" class="nav-link">cursos</a></li>
+                    <li><a href="#testimonios" class="nav-link">testimonios</a></li>
+                    <li><a href="#footer" class="contact ">Contactenos</a></li>
+                </ul>
+                <div class="nav-close">
+                    <i class="fas fa-times"></i>
+                </div>
+            </nav>
+            <div class="nav-toggle" id="nav-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+    <!-- comienza el home -->
+    <section class="home" id="#home">
+        <div class="container">
+            <div class="left">
+                <h1>Todo lo que deseas <br> en un solo lugar.</h1>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Ea perspiciatis cum voluptate <br> aspernatur amet sequi
+                </p>
+                <form action="">
+                    <input type="email" placeholder="Ingrese su direccion de email">
+                    <button>Go</button>
+                </form>
+                <div class="numeros">
+                    <div class="numero-child">
+                        <h2>26K+</h2>
+                        <h3>Valoraciones</h3>
+                    </div>
+                    <div class="numero-child">
+                        <h2>3.4K</h2>
+                        <h3>Cursos</h3>
+                    </div>
+                    <div class="numero-child">
+                        <h2>100+</h2>
+                        <h3>Paises</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="right">
+                <img src="images/homeModel.png" class="home-model" alt="home">
+                <div class="icon">
+                    <img src="images/instagram.png" alt="instagram">
+                </div>
+                <div class="icon">
+                    <img src="images/mortarboard.png" alt="mortarboard">
+                </div>
+                <div class="icon">
+                    <img src="images/tips.png" alt="tips">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- termina home -->
+
+    <!-- empieza seccion Nosotros -->
+        <section class="about" id="nosotros">
+            <div class="container">
+                <div class="left" data-aos="fade-right">
+                    <img  src="images/aboutModel.png" alt="About model">
+                </div>
+                <div class="right" data-aos="fade-left">
+                    <h1>Por que aprendemos <br> de <span>codin</span></h1>      
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate <br> temporibus cum ipsum. Natus, inventore.</p>
+                    <div class="ventajas">
+                        <figure>
+                            <img src="images/icons/accept.png" alt="" srcset="">
+                            Profersores con experiencia
+                        </figure>
+                        <figure>
+                            <img src="images/icons/accept.png" alt="" srcset="">
+                            Precios Economicos
+                        </figure>
+                        <figure>
+                            <img src="images/icons/accept.png" alt="" srcset="">
+                            Cursos de Alta Calidad
+                        </figure>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    <!-- termina seccion Nosotros -->
+
+    <!--  empieza nuestras colaboraciones -->
+    <section class="colaboraciones" id="colaboraciones">
+        <div class="container">
+            <img src="images/icons/FedEx.png" alt="FedEx" class="fe">
+            <img src="images/icons/YouTube.png" alt="YouTube" class="yt">
+            <img src="images/icons/Microsoft.png" alt="Microsoft" class="mic">
+            <img src="images/icons/google.png" alt="google" class="go">
+        </div>
+    </section>
+    <!-- termina nuestras colaboraciones -->
+
+    <!-- empieza seccion Cursos -->
+    <section class="cursos" id="cursos">
+        <h1>Explore los cursos de <span>coding</span></h1>
+        <div class="container">
+            <div class="child">
+                <img src="images/icons/report.png" alt="Data Science">
+                <h2>Data Science</h2>
+            </div>
+            <div class="child">
+                <img src="images/icons/graphic-tablet.png" alt="Diseño Grafico">
+                <h2>Diseño Grafico</h2>
+            </div>
+            <div class="child">
+                <img src="images/icons/social-media.png" alt="social media">
+                <h2>Marketing</h2>
+            </div>
+            <div class="child">
+                <img src="images/icons/video-camera.png" alt="Fotografia">
+                <h2>Fotografia</h2>
+            </div>
+            <div class="child">
+                <img src="images/icons/ux.png" alt="Diseño Web">
+                <h2>Diseño Web</h2>
+            </div>
+            <div class="child">
+                <img src="images/icons/animate.png" alt="Animacion Grafica">
+                <h2>Animacion Grafica</h2>
+            </div>
+            <div class="child">
+                <img src="images/icons/business.png" alt="business">
+                <h2>Business</h2>
+            </div>
+            <div class="child">
+                <img src="images/icons/binary-code.png" alt="Ciencias de la computacion">
+                <h2>Ciencias de la computacion</h2>
+            </div>
+            <div class="child">
+                <img src="images/icons/recording.png" alt="Gravacion">
+                <h2>Voz de fondo</h2>
+            </div>
+        </div>
+    </section>
+    <!-- Termina seccion Cursos -->
+
+    <!--  Empieza testimonios -->
+    <section class="testimonios" id="testimonios">
+        <div class="container">
+            <div class="text">
+                <h1>Que opinan de nuestros cursos?</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br> Consequatur, 
+                    assumenda ut similique <br> explicabo dolorem veritatis?</p>
+            </div>
+        </div>
+        <div class="slide swiper mySwiper">
+            <div class="swiper-wrapper">
+                <!-- item1 -->
+                <div class="item swiper-slide">
+                    <img src="images/steve.png" alt="modelo1" class="left">
+                    <div class="righ">
+                        <div class="estrellas">
+                            <img src="images/icons/star.png" alt="estrellas">
+                            <img src="images/icons/star.png" alt="estrellas">
+                            <img src="images/icons/star.png" alt="estrellas">
+                            <img src="images/icons/star.png" alt="estrellas">
+                            <img src="images/icons/star.png" alt="estrellas">
+                        </div>
+                        <h1>Steven Hugner</h1>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum eos, possimus quisquam ipsa sequi consectetur reprehenderit, perspiciatis obcaecati sit itaque numquam delectus labore voluptas fuga!</p>
+                        <h2>Web Track</h2>
+                    </div>
+                </div>
+                <!-- item2 -->
+                <div class="item swiper-slide">
+                    <img src="images/katrina.png" alt="modelo-2" class="left">
+                    <div class="righ">
+                        <div class="estrellas">
+                            <img src="images/icons/star.png" alt="estrellas">
+                            <img src="images/icons/star.png" alt="estrellas">
+                            <img src="images/icons/star.png" alt="estrellas">
+                            <img src="images/icons/star.png" alt="estrellas">
+                            <img src="images/icons/star.png" alt="estrellas">
+                        </div>
+                        <h1>Caroline M</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quam deleniti doloribus exercitationem quaerat beatae nemo, aliquam delectus. Non rerum eligendi repellat. Eaque, tempora porro?</p>
+                        <h2>Web developer</h2>
+                    </div>
+                </div>
+                <!-- item3 -->
+                <div class="item swiper-slide">
+                    <img src="images/steve.png" alt="modelo3" class="left">
+                    <div class="righ">
+                        <div class="estrellas">
+                            <img src="images/icons/star.png" alt="estrellas">
+                            <img src="images/icons/star.png" alt="estrellas">
+                            <img src="images/icons/star.png" alt="estrellas">
+                            <img src="images/icons/star.png" alt="estrellas">
+                            <img src="images/icons/star.png" alt="estrellas">
+                        </div>
+                        <h1>Steven Hugn</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quam deleniti doloribus exercitationem quaerat beatae nemo, aliquam delectus. Non rerum eligendi repellat. Eaque, tempora porro?</p>
+                        <h2>Web Track</h2>
+                    </div>
+                </div>
+                <!-- item4 -->
+                <div class="item swiper-slide">
+                    <img src="images/katrina.png" alt="modelo-4" class="left">
+                    <div class="righ">
+                        <div class="estrellas">
+                            <img src="images/icons/star.png" alt="estrellas">
+                            <img src="images/icons/star.png" alt="estrellas">
+                            <img src="images/icons/star.png" alt="estrellas">
+                            <img src="images/icons/star.png" alt="estrellas">
+                            <img src="images/icons/star.png" alt="estrellas">
+                        </div>
+                        <h1>Caroline M</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis repellat tempore est libero laudantium doloremque labore mollitia eveniet quia vitae, suscipit veritatis distinctio soluta. Itaque.</p>
+                        <h2>Web developer</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+
+    <!-- Termina testimonio -->
+
+
+    <!--  empieza secion de numeros -->
+    <section class="numeros" id="numeros">
+    <div class="container">
+        <!-- estadisticas -->
+        <div class="itemnum" data-aos="fade-up">
+            <div class="text">
+                <h1>+25</h1>
+                <h2>popular <br> Instructors</h2>
+            </div>
+            <img src="images/shape.png" alt="estadisticas">
+        </div>
+        <!-- estadisticas -->
+        <div class="itemnum"data-aos="fade-up" data-aos-delay="100">
+            <div class="text">
+                <h1>+25</h1>
+                <h2>popular <br> Instructors</h2>
+            </div>
+            <img src="images/shape.png" alt="estadisticas">
+        </div>
+        <!-- estadisticas -->
+        <div class="itemnum" data-aos="fade-up" data-aos-delay="200">
+            <div class="text">
+                <h1>+25</h1>
+                <h2>popular <br> Instructors</h2>
+            </div>
+            <img src="images/shape.png" alt="estadisticas">
+        </div>
+        <!-- estadisticas -->
+        <div class="itemnum" data-aos="fade-up" data-aos-delay="300">
+            <div class="text">
+                <h1>+25</h1>
+                <h2>popular <br> Instructors</h2>
+            </div>
+            <img src="images/shape.png" alt="estadisticas">
+        </div>
+    </div>
+    </section>
+
+    <!--  termina seccion de numeos -->
+
+    <!-- empieza seccion contacto -->
+    <footer class="footer" id="footer">
+        <div class="lista">
+            <div class="data" data-aos="fade-right">
+                <a href=""><img src="images/logo.png" alt="logo"></a>
+                <div class="data-social">
+                    <a href=""><i class="fab fa-facebook"></i></a>
+                    <a href=""><i class="fab fa-instagram"></i></a>
+                    <a href=""><i class="fab fa-twitter"></i></a>
+                    <a href=""><i class="fab fa-youtube"></i></a>
+                </div>
+                <div class="download">
+                    <img src="images/icons/googlePlay.png" alt="googlePlay">
+                    <img src="images/icons/appStore.png" alt="appStore">
+                </div>
+            </div>
+
+            <div class="data-f" data-aos="fade-right">
+                <h2>Codin</h2>
+                <p>Empresarial</p>
+                <p>Afliate</p>
+                <p>Carreras</p>
+            </div>
+            <div class="data-f" data-aos="fade-left">
+                <h2>Contacto</h2>
+                <p>Blog</p>
+                <p>Contactanos</p>
+                <p>Centro de ayuda</p>
+            </div>
+            <div class="data-f" data-aos="fade-left">
+                <h2>Legal</h2>
+                <p>Politicas</p>
+                <p>Politicas de Privacida</p>
+                <p>Accesibilidad</p>
+            </div>
+        </div>
+        <div class="copy">
+            <p>
+                &copy; Todos los derechos Reservados
+            </p>
+            <span>Sitio Desarrollado por Diego Sánchez 💢</span>
+        </div>
+    </footer>
+    <!-- termina seccion contacto -->
+    
+    <!-- buton top -->
+    <div class="up">
+        <i class="fas fa-arrow-up"></i>
+    </div>
+
+    <!-- termina buton top -->
+
+    <!-- AOS Library animacion -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+    <!-- link js -->
+    <script src="app.js"></script>
+</body>
+</html>
